@@ -10,11 +10,11 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                  <li class="nav-item ">
-                    <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" id="main" routerLink="/">الرئيسية</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link w-100" href="#">من نحن </a>
+                    <a class="nav-link w-100" routerLink="aboutus">من نحن </a>
                   </li>
                  
                   <li class="nav-item dropdown">
@@ -41,7 +41,7 @@
                     <a class="nav-link" href="#">بروكسي </a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link" href="#">تواصل معنا </a>
+                    <a class="nav-link" routerLink="contactus">تواصل معنا </a>
                   </li>
                 </ul>
                 
@@ -53,17 +53,17 @@
           </nav>
           <div class="container-fluid content-landpage mt-5">
             <div class="row">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-5 col-sm-12">
                     <img src="./../../assets/images/secondpic.png" height="500" alt="">
                 </div>
-                <div class="col-lg-6 col-sm-12">
-                    <div class="container my-4 d-flex justify-content-center my-2">
+                <div class="col-lg-6 col-sm-12 mt-5">
+                    <div class="container my-4 d-flex justify-content-end ">
                             <h1 class="primary-color">بروكسي</h1>
                     </div>
-                    <div class="container my-4  d-flex justify-content-center my-2">
+                    <div class="container my-4  d-flex justify-content-end my-2">
                             <h1>تمتع بالجودة و الأداء العالي</h1>
                     </div>
-                    <div class="container mt-5 d-flex justify-content-center">
+                    <div class="container mt-5 d-flex justify-content-end">
                         <button type="button" class="btn btn-lg mx-2 rounded-pill btn2">تواصل معنا عبر الواتساب</button>
                          <button type="button" class="btn btn-lg mx-2 rounded-pill btn1">استكشف بروكسي</button>
                     </div>
@@ -77,10 +77,10 @@
         </div>
         <div class="col-lg-5 col-sm-12">
         <div class="container d-flex justify-content-center">
-            <div class="mx-5 pointer"><img src="./../../assets/images/ic_baseline-facebook.png" alt=""></div>
-            <div class="mx-5 pointer"><img src="./../../assets/images/ic_baseline-whatsapp.png" alt=""></div>
-            <div class="mx-5 pointer"><img src="./../../assets/images/mdi_instagram.png" alt=""></div>
+            <div class="mx-5 pointer"><img src="./../../assets/images/ant-design_youtube-filled.png" alt=""></div>
+                        <div class="mx-5 pointer"><img src="./../../assets/images/ic_baseline-facebook.png" alt=""></div>
             <div class="mx-5 pointer"><img src="./../../assets/images/mdi_twitter.png" alt=""></div>
+            <div class="mx-5 pointer"><img src="./../../assets/images/mdi_instagram.png" alt=""></div>
             <div class="mx-5 pointer"><img src="./../../assets/images/ic_baseline-whatsapp.png" alt=""></div>
         </div>
         </div>
@@ -93,18 +93,36 @@
     <h1 class="primary-color mt-5 headsection2">خدمات بروكسي</h1>
   </div>
   <div class="d-flex justify-content-center mt-5">
-<div class="row mt-5">
-    <div class="col-4 mx-0" >
-        <img src="./../../assets/images/Polygon 1.png" style="margin-inline: 42%;" height="400"  width="500" alt="">
-        <!-- <div>
-            <img src="./../../assets/images/icon1.png" alt="">
-        </div> -->
+<div class="container row">
+    <div class="col-4">
+        <div class="row mt-5">
+           <img src="./../../assets/images/Group 39482.png" alt="">
+        </div>
     </div>
-    <div class="col-4 mx-0">
-        <img src="./../../assets/images/Polygon 2.png" height="400" width="500" alt="">
+    <div class="col-4">
+        <div class="row mt-5">
+           <img src="./../../assets/images/Group 39482.png" alt="">
+        </div>
     </div>
-    <div class="col-4 mx-0" >
-        <img src="./../../assets/images/Polygon 3.png" style="margin-inline: -42%;" height="400" width="500" alt="">
+    <div class="col-4">
+        <div class="row mt-5">
+           <img src="./../../assets/images/Group 39482.png" alt="">
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="row mt-5">
+           <img src="./../../assets/images/Group 39482.png" alt="">
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="row mt-5">
+           <img src="./../../assets/images/Group 39482.png" alt="">
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="row mt-5">
+           <img src="./../../assets/images/Group 39482.png" alt="">
+        </div>
     </div>
 </div>
  </div>
@@ -125,16 +143,32 @@
     <div class="d-flex justify-content-center">
         <h1 class="primary-color headsection2" style="margin-top: 10%;">عن بروكسي</h1>
       </div>
-      <!-- <div class="container-fluid">
+      <div class="container-fluid">
         
-      <div class="row">
-        <div class="col-lg-6">
-            رمثقتلانتقثلاتنقثىلانتثقىتن
+      <div class="row mt-5">
+        <div class="col-lg-6 d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                    <div style="font-size: 30px;line-height: 200%;text-align: justify" >
+                        شركة بروكسي للخدمات التقنية هي شركة رائدة في مجال تقديم <br>  الخدمات التقنية والحلول الإلكترونية. تتميز الشركة بفريق مؤهل 
+                    <br> ومتخصص في مجالات التطوير التقني والتصميم والتسويق
+                    <br>  الإلكتروني، مما يتيح لها تقديم الخدمات بأعلى جودة 
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn">
+                 <img src="./../../assets/images/btnpic.png" alt="">
+                    </button>
+                </div>
+            </div>
+            
         </div>
-        <div class="col-lg-6">
-            <img src="" alt="">
+        <div class="col-lg-5">
+            <img src="./../../assets/images/twopicinone.png"  alt="">
+        </div>
+        <div class="col-lg-1">
         </div>
       </div>
-      </div> -->
+      </div>
 
 </div>

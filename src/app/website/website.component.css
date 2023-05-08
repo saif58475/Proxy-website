@@ -10,8 +10,12 @@
 }
 
 li{
-    margin-inline: 12%;
+    margin-inline: 2%;
     color: white !important;
+    font-size: 24px;
+}
+li a{
+    width: 140px !important;
 }
 .leftlogo{
     margin-right: -40%;
