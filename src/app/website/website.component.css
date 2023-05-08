@@ -1,0 +1,44 @@
+
+.landing1{
+    background-image: url('./../../assets/images/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+.navbar{
+    direction: rtl;
+}
+
+li{
+    margin-inline: 12%;
+    color: white !important;
+}
+.leftlogo{
+    margin-right: -40%;
+}
+button{
+
+    background-color: transparent;
+    padding: 2%;
+}
+.btn1{
+    background-color: #BD9A55;
+    border-radius: 0px;
+}
+.btn2{
+    color: #BD9A55 !important;
+    border:1px solid
+}
+.btn2:hover{
+    background-color: #BD9A55;
+    color: white !important;
+}
+.seconddiv{
+    background-color: #1E1E1E;
+    background-image: url('./../../assets/images/seconddiv.png');
+    background-repeat: no-repeat;
+}
+.headsection2{
+    border-bottom: 3px solid white;
+    padding: 2%;
+}

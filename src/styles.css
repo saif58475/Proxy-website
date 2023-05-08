@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url("./assets/font/Tajawal-Regular.ttf")
+  }
+*{
+    color: white !important;
+    font-family: 'My Custom Font', Courier, monospace;
+}
+
+.primary-color{
+    color: #BD9A55 !important;
+}
+.pointer{
+    cursor: pointer;
+}
