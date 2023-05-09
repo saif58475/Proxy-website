@@ -46,3 +46,11 @@ button{
     border-bottom: 3px solid white;
     padding: 2%;
 }
+.detailsbtn:focus{
+    border: 0px;
+}
+
+
+ 
+  
+  
