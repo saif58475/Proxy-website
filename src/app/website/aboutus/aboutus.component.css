@@ -1,0 +1,10 @@
+* {
+    background-image: url('./../../../assets/images/seconddiv.png');
+    background-repeat: no-repeat;
+    background-color: #1E1E1E;
+}
+
+.headsection2{
+    border-bottom: 3px solid white;
+    padding: 2%;
+}

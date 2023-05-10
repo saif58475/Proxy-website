@@ -1,0 +1,13 @@
+.showfooter{
+    background-color: #1E1E1E;
+    background-image: url('./../../assets/images/footerbackground.png');
+    background-repeat: no-repeat;
+}
+.whatsapplogo{
+    position: absolute;
+    right: 10%;
+    margin-top: -180px;
+}
+.socialmediaicons{
+    text-align: left;
+}
