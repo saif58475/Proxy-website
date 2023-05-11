@@ -1,0 +1,44 @@
+* {
+    background-image: url('./../../../assets/images/seconddiv.png');
+    background-repeat: no-repeat;
+    background-color: #1E1E1E;
+}
+
+.parent{
+    position: relative;
+    border: 1px solid #BD9A55;
+}
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.headsection2{
+    border-bottom: 3px solid #BD9A55;
+    padding: 2%;
+}
+.rightform{
+ margin-top: 10%;
+ margin-left: -20%;
+ height: 60%;
+}
+
+input{
+    background-color: #BD9A55;
+    color: black !important;
+}
+textarea{
+    background-color: #BD9A55;
+    color: black !important;
+}
+button{
+    background-color: #BD9A55;
+    border: 0px !important;
+}
+button:hover{
+    background-color: #BD9A55;
+}
+.form-control{
+    border: 0px !important;
+}

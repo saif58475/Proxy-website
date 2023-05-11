@@ -11,3 +11,11 @@
 .socialmediaicons{
     text-align: left;
 }
+
+@media screen and (max-width: 600px) {
+    .whatsapplogo{
+        position: absolute;
+        right: 10%;
+        margin-top: -50px;
+    }
+  }

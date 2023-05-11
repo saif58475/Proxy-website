@@ -5,13 +5,15 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ServicesComponent } from './services/services.component';
+import { PackagesComponent } from './packages/packages.component';
 
 const routes: Routes = [
   { path: '', component: WebsiteComponent },
   { path: 'landingpage', component: LandingpageComponent},
   { path: 'contactus', component: ContactusComponent},
   { path: 'aboutus', component: AboutusComponent},
-  { path: 'services', component: ServicesComponent}
+  { path: 'services', component: ServicesComponent},
+  { path: 'packages', component: PackagesComponent}
 ];
 
 @NgModule({
