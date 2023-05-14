@@ -9,6 +9,8 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ServicesComponent } from './services/services.component';
 import { PackagesComponent } from './packages/packages.component';
 import { MarketingPlaceComponent } from './marketing-place/marketing-place.component';
+import { VideoMadeComponent } from './video-made/video-made.component';
+import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { MarketingPlaceComponent } from './marketing-place/marketing-place.compo
     ContactusComponent,
     ServicesComponent,
     PackagesComponent,
-    MarketingPlaceComponent
+    MarketingPlaceComponent,
+    VideoMadeComponent,
+    GraphicDesignComponent
   ],
   imports: [
     CommonModule,

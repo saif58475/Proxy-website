@@ -7,6 +7,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ServicesComponent } from './services/services.component';
 import { PackagesComponent } from './packages/packages.component';
 import { MarketingPlaceComponent } from './marketing-place/marketing-place.component';
+import { VideoMadeComponent } from './video-made/video-made.component';
+import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
 
 const routes: Routes = [
   { path: '', component: WebsiteComponent },
@@ -16,6 +18,9 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent},
   { path: 'packages', component: PackagesComponent},
   { path: 'marketingplace', component: MarketingPlaceComponent},
+  { path: 'videomade', component: VideoMadeComponent},
+  { path: 'Graphicdesign', component: GraphicDesignComponent},
+
 ];
 
 @NgModule({
