@@ -1,0 +1,27 @@
+nav{
+    margin-bottom: -14%;
+}
+.landing1{
+    background-image: url('./../../assets/images/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+.navbar{
+    direction: rtl;
+}
+  
+li{
+    margin-inline: 2%;
+    color: white !important;
+    font-size: 24px;
+}
+li a{
+    width: 140px !important;
+}
+
+
+
+
+ 
+  

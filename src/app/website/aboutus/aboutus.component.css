@@ -8,3 +8,9 @@
     border-bottom: 3px solid white;
     padding: 2%;
 }
+.btncontact{
+    padding: 4% 8%;
+    background-color: transparent;
+    border: 2px solid #BD9A55;
+    color: #BD9A55;
+}
