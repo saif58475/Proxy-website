@@ -8,6 +8,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ServicesComponent } from './services/services.component';
 import { PackagesComponent } from './packages/packages.component';
+import { MarketingPlaceComponent } from './marketing-place/marketing-place.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PackagesComponent } from './packages/packages.component';
     AboutusComponent,
     ContactusComponent,
     ServicesComponent,
-    PackagesComponent
+    PackagesComponent,
+    MarketingPlaceComponent
   ],
   imports: [
     CommonModule,
