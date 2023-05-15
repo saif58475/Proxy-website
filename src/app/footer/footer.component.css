@@ -4,9 +4,9 @@
     background-repeat: no-repeat;
 }
 .whatsapplogo{
-    position: absolute;
-    right: 10%;
-    margin-top: -180px;
+    position: fixed;
+    right: 5%;
+    top: 80%;
 }
 .socialmediaicons{
     text-align: left;
