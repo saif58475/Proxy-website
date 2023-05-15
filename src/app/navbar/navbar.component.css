@@ -20,7 +20,13 @@ li a{
     width: 140px !important;
 }
 
-
+@media (max-width: 600px) {
+    nav{
+        /* margin-bottom: -80%; */
+        /* background-color: green; */
+        background-color: red;
+    }
+  }
 
 
  
