@@ -42,3 +42,16 @@ button:hover{
 .form-control{
     border: 0px !important;
 }
+@media screen and (max-width: 600px) {
+    .row{
+        padding: 10%;
+    }
+    .rightform{
+        margin-top: 10%;
+        margin-left: 0%;
+        height: 60%;
+        padding: 0% !important;
+       }
+       
+  }
+  

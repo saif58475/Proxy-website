@@ -18,3 +18,9 @@
     min-height: 250px;
 }
 
+@media screen and (max-width: 600px) {
+ .griddown{
+    padding: 10%;
+ }
+}
+  
