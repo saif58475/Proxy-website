@@ -28,6 +28,15 @@ button{
   --color: #ffa260;
   --hover: #e5ff60;
 }
+.road-map div{
+  display:inline-block;
+}
+.steps img{
+  width: 115px;
+}
+.step-arrow img{
+  width: 70px;
+}
 .raise:hover,
 .raise:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
