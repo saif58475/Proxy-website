@@ -3,7 +3,7 @@
   <div class="container ">
     <div class="row" >
         <div class="col-lg-5 col-sm-12 d-none d-md-block">
-            <img src="assets/images/secondpic.png" class="w-75 " height="500" alt="">
+            <img src="assets/images/secondpic.png" class="w-75" height="400" alt="">
         </div>
         <div class="col-lg-6 col-sm-12 entryinmobile">
             <div class="container my-4 text-end">
@@ -127,13 +127,13 @@
     <div class="container text-center mt-5">
       <div class="road-map" style="position: relative;">
         <span class="steps">
-            <img src="assets/images/Ellipse 149.png">
+            <img src="assets/images/Ellipse 149.png" class="w-25">
         </span>
         <span class="step-arrow">
             <img src="assets/images/Isolation_Mode.png">
         </span>
         <span class="steps">
-            <img src="assets/images/Ellipse 150.png" style="position: relative;top: 49px;margin: 10;right: -4px;">
+            <img src="assets/images/Ellipse 150.png" class="w-25" style="position: relative;top: 49px;margin: 10;right: -4px;">
         </span>
         <br>
         <span class="step-arrow">
@@ -142,25 +142,25 @@
 visibility: hidden;">
 <img src="assets/images/Isolation_Mode-1.png" style="
 visibility: hidden;">
-<img src="assets/images/Isolation_Mode-1.png" style="
+<img src="assets/images/Isolation_Mode-1.png" style=" 
     display: inline-block;
     margin: 21px 106px 0px 0px;
 ">
         </span>
         <br>
         <span class="steps">
-            <img src="assets/images/Ellipse 151.png" style="
+            <img src="assets/images/Ellipse 151.png" class="w-25" style="
             position: relative;
             display: inline-block;
             top: -80px;
         ">
         </span>
         <span class="step-arrow">
-            <img src="assets/images/Isolation_Mode-2.png" style="    position: relative;
+            <img src="assets/images/Isolation_Mode-2.png" style="position: relative;
             top: -18px;">
         </span>
         <span class="steps">
-            <img src="assets/images/Ellipse 152.png">
+            <img src="assets/images/Ellipse 152.png" class="w-25">
         </span>
     </div>
     </div>
@@ -176,7 +176,7 @@ visibility: hidden;">
         <div class="col-lg-6 d-flex justify-content-center col-sm-12 seconddiv">
             <div class="row">
                 <div class="col-12 d-flex justify-content-end">
-                    <div style="font-size: 30px;line-height: 200%;text-align: justify;direction: rtl;" >
+                    <div style="font-size: 20px;line-height: 150%;text-align: justify;direction: rtl;" >
                         شركة بروكسي للخدمات التقنية هي شركة رائدة في مجال تقديم <br>  الخدمات التقنية والحلول الإلكترونية. تتميز الشركة بفريق مؤهل 
                     <br> ومتخصص في مجالات التطوير التقني والتصميم والتسويق
                     <br>  الإلكتروني، مما يتيح لها تقديم الخدمات بأعلى جودة 
@@ -190,11 +190,10 @@ visibility: hidden;">
             </div>
             
         </div>
-        <div class="col-lg-5 col-sm-12 seconddiv">
+        <div class="col-lg-6 col-sm-12 seconddiv">
             <img src="assets/images/twopicinone.png" class="w-100" alt="">
         </div>
-        <div class="col-lg-1 col-sm-12 ">
-        </div>
+        
       </div>
       </div>
 
@@ -204,21 +203,46 @@ visibility: hidden;">
 <div class="seconddiv">
   <div class="seconddiv">
     <div class="container row">
-  <div class="col-lg-6 col-md-12">
-    <img src="assets/images/map.png" class="w-100" alt="">
+  <div class="col-lg-6 col-md-12 px-0">
+    <img [src]="map " class="w-100" alt="map">
   </div>
   <div class="col-lg-6 col-md-12">
     <div class="text-end fs-3 location">
-      <p>
-        المملكه العربيه السعوديه , جده , شارع الأمير  سلطان , برج سكاي الدور  الأول
-      </p><br>
-      <p>
-         الإمارات العربيه المتحده , مركز 
-        التجارة العالمي
-                   </p><br>
-      <p>
-        مصر , المعادي , كورنيش المعادي , برج دالا 
-        الطابق الرابع والثلاثين          </p>
+      <div class="row">
+        <div class="col-9">
+          <p>
+            المملكه العربيه السعوديه , جده , شارع الأمير  سلطان , برج سكاي الدور  الأول
+          </p>
+        </div>
+        <div class="col-3 p-lg-4">
+          <img src="assets/images/KSA.png" (click)="SelectCountry('ksa')" class="w-100" alt="">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-9">
+          <p>
+            الإمارات العربيه المتحده , مركز 
+           التجارة العالمي
+                      </p>
+        </div>
+        <div class="col-3 p-lg-4">
+          <img src="assets/images/UAE.png" (click)="SelectCountry('uae')" class="w-100" alt="">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-9">
+          <p>
+            مصر , المعادي , كورنيش المعادي , برج دالا 
+            الطابق الرابع والثلاثين          </p>
+        </div>
+        <div class="col-3 p-lg-4">
+          <img src="assets/images/EGY.png" (click)="SelectCountry('egy')" class="w-100" alt="">
+        </div>
+      </div>
+    
+    
     </div>    
   </div>
 </div>
