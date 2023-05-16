@@ -21,6 +21,7 @@
         z-index: 999;
     }
     .showfooter{
-        margin-top: 90%;
+        position: relative;
+        top: 100%;
     }
   }
