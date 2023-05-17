@@ -46,7 +46,11 @@ p{
 }
 .inputdecor{
     background-color: transparent !important;
-    border: 2px solid #BD9A55 !important;
+    border: 4px solid #BD9A55 !important;
+}
+.btn{
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 @media screen and (max-width: 600px) {
     .rightform{

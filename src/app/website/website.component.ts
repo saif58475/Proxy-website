@@ -21,8 +21,11 @@ SelectCountry(map:string){
     case "ksa":
       this.map = 'assets/images/mapKSA.png'
         break;
-    default:
+    case "uae":
       this.map = 'assets/images/mapUAE.png'
+        break;
+    default:
+      this.map = 'assets/images/mapKSA.png'
   }
 }
 

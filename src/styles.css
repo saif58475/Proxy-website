@@ -18,3 +18,6 @@
 .arabpar{
 text-align: justify;
 }
+.dropdown-toggle::after{
+    margin: 0px 2px -4px;
+}
