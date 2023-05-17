@@ -145,11 +145,16 @@ button{
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
 }
 
-
+.imageslider{
+  margin-left: 48%;
+}
 
 @media (max-width: 600px) {
   .entryinmobile{
     margin-top: 20%;
+  }
+  .imageslider{
+    margin-left: 40%;
   }
 }
 
