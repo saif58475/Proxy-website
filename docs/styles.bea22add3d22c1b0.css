@@ -1,4 +1,4 @@
-@font-face{font-family:My Custom Font;src:url(Tajawal-Regular.b3923810f0eb08d2.ttf)}*{color:#fff!important;font-family:My Custom Font,Courier,monospace}.primary-color{color:#bd9a55!important}.pointer{cursor:pointer}.arabpar{text-align:justify}.dropdown-toggle:after{margin:0 2px -4px}@charset "UTF-8";/*!
+@font-face{font-family:My Custom Font;src:url(Tajawal-Regular.b3923810f0eb08d2.ttf)}*{color:#fff!important;font-family:My Custom Font,Courier,monospace}.primary-color{color:#bd9a55!important}.pointer{cursor:pointer}.arabpar{text-align:justify}.dropdown-toggle:after{margin:0 2px -4px}.dropdown-item:focus,.dropdown-item:hover{min-width:95%!important;background-color:#a39f31!important}@charset "UTF-8";/*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
