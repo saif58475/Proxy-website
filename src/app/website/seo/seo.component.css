@@ -1,0 +1,22 @@
+* {
+    background-image: url('./../../../assets/images/seconddiv.png');
+    background-repeat: no-repeat;
+    background-color: #1E1E1E;
+}
+
+.list{
+    direction: rtl;
+}
+ul li::before {
+    color: blue; 
+}
+.parent{
+    position: relative;
+    border: 1px solid #BD9A55;
+}
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

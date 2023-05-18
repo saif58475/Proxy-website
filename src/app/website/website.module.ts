@@ -11,6 +11,15 @@ import { PackagesComponent } from './packages/packages.component';
 import { MarketingPlaceComponent } from './marketing-place/marketing-place.component';
 import { VideoMadeComponent } from './video-made/video-made.component';
 import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
+import { DesignpackagesComponent } from './designpackages/designpackages.component';
+import { SeoComponent } from './seo/seo.component';
+import { ManagecommunicationaccountComponent } from './managecommunicationaccount/managecommunicationaccount.component';
+import { CampaignmanagmentComponent } from './campaignmanagment/campaignmanagment.component';
+import { WebsitecodingComponent } from './websitecoding/websitecoding.component';
+import { ProfessionallaunchpackagesComponent } from './professionallaunchpackages/professionallaunchpackages.component';
+import { OrganizingandmanagingpartiesComponent } from './organizingandmanagingparties/organizingandmanagingparties.component';
+import { DiscoveringandmanagingtalentComponent } from './discoveringandmanagingtalent/discoveringandmanagingtalent.component';
+import { TrainingcoursesandworkshopsComponent } from './trainingcoursesandworkshops/trainingcoursesandworkshops.component';
 
 
 @NgModule({
@@ -23,7 +32,16 @@ import { GraphicDesignComponent } from './graphic-design/graphic-design.componen
     PackagesComponent,
     MarketingPlaceComponent,
     VideoMadeComponent,
-    GraphicDesignComponent
+    GraphicDesignComponent,
+    DesignpackagesComponent,
+    SeoComponent,
+    ManagecommunicationaccountComponent,
+    CampaignmanagmentComponent,
+    WebsitecodingComponent,
+    ProfessionallaunchpackagesComponent,
+    OrganizingandmanagingpartiesComponent,
+    DiscoveringandmanagingtalentComponent,
+    TrainingcoursesandworkshopsComponent
   ],
   imports: [
     CommonModule,

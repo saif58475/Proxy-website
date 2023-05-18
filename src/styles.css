@@ -22,6 +22,6 @@ text-align: justify;
     margin: 0px 2px -4px;
 }
 .dropdown-item:focus, .dropdown-item:hover{
-    min-width: 95% !important;
+    min-width: 98% !important;
     background-color: #a39f31 !important;
 }

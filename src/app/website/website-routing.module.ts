@@ -9,6 +9,15 @@ import { PackagesComponent } from './packages/packages.component';
 import { MarketingPlaceComponent } from './marketing-place/marketing-place.component';
 import { VideoMadeComponent } from './video-made/video-made.component';
 import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
+import { DesignpackagesComponent } from './designpackages/designpackages.component'
+import { SeoComponent } from './seo/seo.component';
+import { ManagecommunicationaccountComponent } from './managecommunicationaccount/managecommunicationaccount.component';
+import { CampaignmanagmentComponent } from './campaignmanagment/campaignmanagment.component';
+import { ProfessionallaunchpackagesComponent } from './professionallaunchpackages/professionallaunchpackages.component';
+import { OrganizingandmanagingpartiesComponent } from './organizingandmanagingparties/organizingandmanagingparties.component';
+import { DiscoveringandmanagingtalentComponent } from './discoveringandmanagingtalent/discoveringandmanagingtalent.component';
+import { TrainingcoursesandworkshopsComponent } from './trainingcoursesandworkshops/trainingcoursesandworkshops.component';
+import { WebsitecodingComponent } from './websitecoding/websitecoding.component';
 
 const routes: Routes = [
   { path: '', component: WebsiteComponent },
@@ -20,7 +29,15 @@ const routes: Routes = [
   { path: 'marketingplace', component: MarketingPlaceComponent},
   { path: 'videomade', component: VideoMadeComponent},
   { path: 'Graphicdesign', component: GraphicDesignComponent},
-
+  { path: 'designpackage', component: DesignpackagesComponent},
+  { path: 'seo', component: SeoComponent},
+  { path: 'comunicationaccount', component: ManagecommunicationaccountComponent},
+  { path: 'campaignmanagment', component: CampaignmanagmentComponent},
+  { path: 'websitecoding', component: WebsitecodingComponent},
+  { path: 'professionallaunchpackages', component: ProfessionallaunchpackagesComponent},
+  { path: 'organizingandmanagingparties', component: OrganizingandmanagingpartiesComponent},
+  { path: 'discoveringandmanagingtalent', component: DiscoveringandmanagingtalentComponent},
+  { path: 'trainingcoursesandworkshops', component: TrainingcoursesandworkshopsComponent},
 ];
 
 @NgModule({
