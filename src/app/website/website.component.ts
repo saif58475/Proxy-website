@@ -15,9 +15,9 @@ export class WebsiteComponent implements OnInit {
 
   ngOnInit(): void {
     let i = 0 ;
-    interval(2000).subscribe(() => {
+    interval(4000).subscribe(() => {
         this.SelectCountry(this.countries[i]);
-        // this.changecolor(`#${this.countries[i]}`);
+        this.changecolor(this.countries[i]);
         if( i == 2){
           i = 0; 
        }else {
@@ -31,14 +31,15 @@ export class WebsiteComponent implements OnInit {
 SelectCountry(map:string){
   switch (map) {
     case "egy":
+      document.getElementById('uae')!.classList.remove('textofmap');
       this.map = 'assets/images/mapEGY.png';
-       
       break;
     case "ksa":
+      document.getElementById('egy')!.classList.remove('textofmap');
       this.map = 'assets/images/mapKSA.png';
-            
         break;
     case "uae":
+      document.getElementById('ksa')!.classList.remove('textofmap');
       this.map = 'assets/images/mapUAE.png';
       
         break;
@@ -48,7 +49,7 @@ SelectCountry(map:string){
 }
 
 changecolor(id:string){
-  this.element = [];
-  this.element = this.elRef.nativeElement.querySelector(`#${id}`);
+  document.getElementById(`${id}`)!.classList.add('textofmap');
+
   }
 }
