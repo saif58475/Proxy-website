@@ -148,6 +148,9 @@ button{
 .imageslider{
   margin-left: 48%;
 }
+.textofmap{
+  color: #BD9A55 !important;
+}
 
 @media (max-width: 600px) {
   .entryinmobile{
