@@ -20,6 +20,10 @@ import { ProfessionallaunchpackagesComponent } from './professionallaunchpackage
 import { OrganizingandmanagingpartiesComponent } from './organizingandmanagingparties/organizingandmanagingparties.component';
 import { DiscoveringandmanagingtalentComponent } from './discoveringandmanagingtalent/discoveringandmanagingtalent.component';
 import { TrainingcoursesandworkshopsComponent } from './trainingcoursesandworkshops/trainingcoursesandworkshops.component';
+import { SalesPackageComponent } from './packages/sales-package/sales-package.component';
+import { DesignPackageComponent } from './packages/design-package/design-package.component';
+import { ViideoProductionPackageComponent } from './packages/viideo-production-package/viideo-production-package.component';
+import { CodingPackageComponent } from './packages/coding-package/coding-package.component';
 
 
 @NgModule({
@@ -41,7 +45,11 @@ import { TrainingcoursesandworkshopsComponent } from './trainingcoursesandworksh
     ProfessionallaunchpackagesComponent,
     OrganizingandmanagingpartiesComponent,
     DiscoveringandmanagingtalentComponent,
-    TrainingcoursesandworkshopsComponent
+    TrainingcoursesandworkshopsComponent,
+    SalesPackageComponent,
+    DesignPackageComponent,
+    ViideoProductionPackageComponent,
+    CodingPackageComponent
   ],
   imports: [
     CommonModule,

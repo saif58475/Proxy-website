@@ -18,7 +18,10 @@ import { OrganizingandmanagingpartiesComponent } from './organizingandmanagingpa
 import { DiscoveringandmanagingtalentComponent } from './discoveringandmanagingtalent/discoveringandmanagingtalent.component';
 import { TrainingcoursesandworkshopsComponent } from './trainingcoursesandworkshops/trainingcoursesandworkshops.component';
 import { WebsitecodingComponent } from './websitecoding/websitecoding.component';
-
+import { SalesPackageComponent } from './packages/sales-package/sales-package.component';
+import { ViideoProductionPackageComponent } from './packages/viideo-production-package/viideo-production-package.component';
+import { CodingPackageComponent } from './packages/coding-package/coding-package.component';
+import { DesignPackageComponent } from './packages/design-package/design-package.component';
 const routes: Routes = [
   { path: '', component: WebsiteComponent },
   { path: 'landingpage', component: LandingpageComponent},
@@ -38,6 +41,10 @@ const routes: Routes = [
   { path: 'organizingandmanagingparties', component: OrganizingandmanagingpartiesComponent},
   { path: 'discoveringandmanagingtalent', component: DiscoveringandmanagingtalentComponent},
   { path: 'trainingcoursesandworkshops', component: TrainingcoursesandworkshopsComponent},
+  { path: 'salespackage', component: SalesPackageComponent},
+  { path: 'videoproduction', component: ViideoProductionPackageComponent},
+  { path: 'designpackages', component: DesignPackageComponent},
+  { path: 'codingpackage', component: CodingPackageComponent}
 ];
 
 @NgModule({
