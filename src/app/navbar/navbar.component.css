@@ -9,7 +9,7 @@ nav{
 }
 nav.scrolled {
     background-color: #333;
-  }
+}
 .landing1{
     background-image: url('./../../assets/images/Rectangle 1.png');
     background-repeat: no-repeat;
@@ -26,6 +26,20 @@ li{
 }
 li a{
     width: 140px !important;
+}  
+.switch{
+    width: 150px;
+    height: 45px;
+    background-color: linear-gradient(to right, #0B0974 15.38%, #EAA357 93.61%) !important;
+}
+.form-switch .form-check-input:checked{
+    background-image: url('./../../assets/images/englandflag.png') !important;
+    background-color: linear-gradient(to right, #0B0974 15.38%, #EAA357 93.61%) !important;
+    background-color: white;
+    border: 0px;
+}
+.form-switch .form-check-input{
+    background-image: url('./../../assets/images/ksaflag.png') !important;
 }
 
 @media (max-width: 600px) {
