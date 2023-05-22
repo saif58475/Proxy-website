@@ -21,7 +21,7 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-   this.selectpage('one');
+
   }
 
   changeLanguage() {
@@ -29,12 +29,12 @@ export class NavbarComponent implements OnInit {
     switch(this.lang) {
       case true:
       localStorage.setItem('language', 'en');
-      alert(      localStorage.getItem('language')      )
+      document.body.dir = 'rtl';
       break;
       case false:
        localStorage.setItem('language', 'ar');
-       alert(      localStorage.getItem('language')      )
-      break;
+       document.body.dir = 'ltr';
+             break;
       default:
         alert('nothing');
     }
@@ -47,19 +47,5 @@ export class NavbarComponent implements OnInit {
     
   }
   
-  selectpage(page:string){
-    switch (page) {
-      case 'one':
-        document.getElementById("main")!.style.color = 'yellow';
-        break;
-      case 'orange':
-        console.log('This is an orange.');
-        break;
-      case 'apple':
-        console.log('This is an apple.');
-        break;
-      default:
-        console.log('This is not a recognized fruit.');
-    }
-  }
+ 
 }
