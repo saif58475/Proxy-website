@@ -24,8 +24,13 @@ import { SalesPackageComponent } from './packages/sales-package/sales-package.co
 import { DesignPackageComponent } from './packages/design-package/design-package.component';
 import { ViideoProductionPackageComponent } from './packages/viideo-production-package/viideo-production-package.component';
 import { CodingPackageComponent } from './packages/coding-package/coding-package.component';
+import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient } from '@angular/common/http';
 
-
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 @NgModule({
   declarations: [
     WebsiteComponent,
@@ -53,7 +58,15 @@ import { CodingPackageComponent } from './packages/coding-package/coding-package
   ],
   imports: [
     CommonModule,
-    WebsiteRoutingModule
-  ]
+    WebsiteRoutingModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
+  ],
+  providers: [TranslateService],
 })
 export class WebsiteModule { }

@@ -1,4 +1,6 @@
 import { Component, ViewChild,OnInit, ElementRef } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -18,7 +20,7 @@ export class NavbarComponent implements OnInit {
     icon: 'sa'
   },
  ]
-  constructor() { }
+  constructor(private translate:TranslateService) { }
 
   ngOnInit(): void {
 
@@ -30,22 +32,23 @@ export class NavbarComponent implements OnInit {
       case true:
       localStorage.setItem('language', 'en');
       document.body.dir = 'rtl';
+      document.querySelector('nav')!.style.direction = 'ltr';
+      this.setLanguage('en');
+      this.translate.use('en');
       break;
       case false:
        localStorage.setItem('language', 'ar');
        document.body.dir = 'ltr';
-             break;
+       document.querySelector('nav')!.style.direction = 'rtl';
+       this.setLanguage('ar');
+       this.translate.use('ar');
+       break;
       default:
         alert('nothing');
     }
-
-    // if( localStorage.getItem('language') == 'en'){
-    //  alert('this is english');
-    // }else{
-    //   alert('this is arabic')
-    // }
-    
+  }
+  setLanguage(lang: string) {
+    this.translate.use(lang);
   }
   
- 
 }
