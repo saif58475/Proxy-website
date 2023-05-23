@@ -1,4 +1,5 @@
 {
+    
     "trial": "trial",
     "الرئيسية": "Home",
     "بروكسي": "Proxy",
@@ -21,5 +22,43 @@
     "باقات التسويق":"Marketing Packages",
     "باقات التصميم":"Design Packages",
     "باقات انتاج الفيديو":"Video Design Packages",
-    "باقات البرمجة":"Coding Packages"
+    "باقات البرمجة":"Coding Packages",
+
+
+   "التسويق":"marketing",
+   "اكتشفنا":"find us",
+   "تصميم الموقع":"website design",
+   "المزايا":"advantages",
+   "رحلة بروكسي":"proxy's journey",
+   "فروعنا":"our branches",
+
+
+
+
+
+   " بروكسي جروب ":"'' Proxy Group ''",
+   "شركة بروكسي جروب للتسويق  والبرمجه هي إحدى الشركات الرائدة في مجال التسويق الرقمي والبرمجه، تأسست في عام 2023 ومقرها في مدينة ميامي بولاية فلوريدا في المملكه العربيه  السعوديه . تعمل الشركة على تقديم خدمات البرمجه والتصميم والتسويق الرقمي لمختلف الشركات والعلامات التجارية في مختلف القطاعات.":"Proxy Group Marketing and Programming Company is one of the leading companies in the field of digital marketing and programming, founded in 2023 and headquartered in Miami, Florida, in the Kingdom of Saudi Arabia. The company provides programming, design and digital marketing services to various companies and brands in various sectors.",
+    "لماذا تختار بروكسي":"? Why To Choose Proxy",
+    "شركة بروكسي جروب للتسويق  والبرمجه هي إحدى الشركات الرائدة في مجال التسويق الرقمي والبرمجه، تأسست في عام 2023 ومقرها في مدينة ميامي بولاية فلوريدا في المملكه العربيه  السعوديه . تعمل الشركة على تقديم خدمات البرمجه والتصميم والتسويق الرقمي لمختلف الشركات والعلامات التجارية في مختلف القطاعات":"Proxy Group Marketing and Programming Company is one of the leading companies in the field of digital marketing and programming, founded in 2023 and headquartered in Miami, Florida, in the Kingdom of Saudi Arabia. The company provides programming, design and digital marketing services to various companies and brands in various sectors",
+    "استكشاف":"Discovering",
+
+
+
+
+
+
+
+
+
+
+    "خدمات بروكسي":"Proxy Services",
+    "تحسين محركات البحث":"Increase in searching engine optimization",
+    "انتاج الفيديو":"Video Production",
+    "ما هي المزايا التي يمكننا تقديمها للعملاء":"What advantages can we offer to clients",
+    "حين نقدم خدمات تقنية و تسويقية عالية الجودة تساعدكم على تحقيق أهدافكم بشكل فعال":"When we provide high quality technical and marketing services that help you achieve your goals effectively",
+    "طريق بروكسي للنجاح ":"Way Of Proxy To Success",
+    "عن بروكسي":"About Proxy",
+    "المملكه العربيه السعوديه , جده , شارع الأمير  سلطان , برج سكاي الدور  الأول":"Ksa , Jeddah, Sultan street",
+    "الإمارات العربية المتحدة , مركز التجارة العالمي":"UAE , World Trade Center",
+    "مصر ,المعادي ,كورنيش المعادي , برج دالا الطابق الرابع و الثلاثين":"Egypt, Maadi , Nile Kornesh , Dala Tower floor 34"
 }

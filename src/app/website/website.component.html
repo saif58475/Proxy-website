@@ -1,6 +1,6 @@
-<div class="vh-100 sectionone">
+<!-- <div class="vh-100 sectionone">
   <div class="d-none d-md-block"><br><br><br><br><br><br><br><br><br></div>
-  <div class="container ">
+  <div class="container">
     <div class="row" >
         <div class="col-lg-5 col-sm-12 d-none d-md-block">
             <img src="assets/images/secondpic.png" class="w-50" alt="">
@@ -16,30 +16,98 @@
                 <button type="button" class="btn btn-lg mx-2 rounded-pill btn2">تواصل معنا عبر الواتساب</button>
                  <button type="button" class="btn btn-lg mx-2 rounded-pill btn1">استكشف بروكسي</button>
             </div>
-
         </div>
        </div>
        <br><br><br><br>
   </div>  
-  <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
+
+</div> -->
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide p-0" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <!-- first div in the slider -->
+    <div class="carousel-item active sectionone vh-100">
+      <div class="d-none d-md-block"><br><br><br><br><br><br><br><br><br></div>
+      <div class="container">
+        <div class="row" >
+          <div class="col-lg-5 col-sm-12 d-none d-md-block">
+              <img src="assets/images/secondpic.png" class="w-50" alt="">
+          </div>
+          <div class="col-lg-6 col-sm-12 entryinmobile">
+              <div class="container my-4 text-end">
+                      <h1 class="primary-color">{{ "بروكسي" | translate }}</h1>
+              </div>
+              <div class="container my-2 text-end">
+                      <h1>تمتع بالجودة و الأداء العالي</h1>
+              </div>
+              <div class="container mt-5 d-flex justify-content-end">
+                  <button type="button" class="btn btn-lg mx-2 rounded-pill btn2">تواصل معنا عبر الواتساب</button>
+                   <button type="button" class="btn btn-lg mx-2 rounded-pill btn1">استكشف بروكسي</button>
+              </div>
+          </div>
+         </div> 
+      </div> 
+        </div>
+        <!-- second div in slider -->
+    <div class="carousel-item sectionone vh-100">
+      <div class="d-none d-md-block"><br><br><br><br><br><br><br><br><br></div>
+      <div class="container">
+        <div class="row" >
+          <div class="col-lg-5 col-sm-12 d-none d-md-block">
+              <img src="assets/images/secondpic.png" class="w-50" alt="">
+          </div>
+          <div class="col-lg-6 col-sm-12 entryinmobile">
+              <div class="container my-4 text-end">
+                      <h1 class="primary-color">{{ "بروكسي" | translate }}</h1>
+              </div>
+              <div class="container my-2 text-end">
+                      <h1>تمتع بالجودة و الأداء العالي</h1>
+              </div>
+              <div class="container mt-5 d-flex justify-content-end">
+                  <button type="button" class="btn btn-lg mx-2 rounded-pill btn2">تواصل معنا عبر الواتساب</button>
+                   <button type="button" class="btn btn-lg mx-2 rounded-pill btn1">استكشف بروكسي</button>
+              </div>
+          </div>
+         </div> 
+      </div>   
+       </div>
+       <!-- third div in slider -->
+    <div class="carousel-item sectionone vh-100">
+      <div class="d-none d-md-block"><br><br><br><br><br><br><br><br><br></div>
+      <div class="container">
+        <div class="row" >
+          <div class="col-lg-5 col-sm-12 d-none d-md-block">
+              <img src="assets/images/secondpic.png" class="w-50" alt="">
+          </div>
+          <div class="col-lg-6 col-sm-12 entryinmobile">
+              <div class="container my-4 text-end">
+                      <h1 class="primary-color">{{ "بروكسي" | translate }}</h1>
+              </div>
+              <div class="container my-2 text-end">
+                      <h1>تمتع بالجودة و الأداء العالي</h1>
+              </div>
+              <div class="container mt-5 d-flex justify-content-end">
+                  <button type="button" class="btn btn-lg mx-2 rounded-pill btn2">تواصل معنا عبر الواتساب</button>
+                   <button type="button" class="btn btn-lg mx-2 rounded-pill btn1">استكشف بروكسي</button>
+              </div>
+          </div>
+         </div> 
+      </div>  
     </div>
-  </div> -->
+  </div>
 </div>
+
+
+
+
+
+
 
 
 <div class="seconddiv">
   <div class="d-flex justify-content-center">
-    <h1 class="primary-color mt-5 headsection2">خدمات بروكسي</h1>
+    <h1 class="primary-color mt-5 headsection2">{{ "خدمات بروكسي" | translate}}</h1>
   </div>
   <br><br><br>
  <!-- ================================================================================================================== -->
@@ -53,15 +121,15 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="assets/images/slider1.png" class="imageslider" alt="...">
-            <p class="text-center fs-3">تحسين محركات البحث</p>
+            <p class="text-center fs-3">{{ "تحسين محركات البحث" | translate}}</p>
         </div>
         <div class="carousel-item ">
           <img src="assets/images/slider2.png" class="imageslider" alt="...">
-            <p class="text-center fs-3">انتاج الفيديو</p>
+            <p class="text-center fs-3">{{ "انتاج الفيديو" | translate}}</p>
         </div>
         <div class="carousel-item ">
           <img src="assets/images/slider3.png" class="imageslider" alt="...">
-            <p class="text-center fs-3">تصميم المواقع</p>
+            <p class="text-center fs-3">{{ "تصميم المواقع" | translate}}</p>
         </div>
        
       </div>
@@ -80,10 +148,10 @@
 </div>
 <div class="seconddiv">
   <div class="d-flex justify-content-center">
-    <h1 class="primary-color mt-3 headsection2 text-end">ما هي المزايا التي يمكننا تقديمها للعملاء</h1>
+    <h1 class="primary-color mt-3 headsection2 text-end">{{ "ما هي المزايا التي يمكننا تقديمها للعملاء" | translate}}</h1>
   </div>
   <div class="d-flex justify-content-center">
-   <p class="fs-4 text-center">حين نقدم خدمات تقنية و تسويقية عالية الجودة <br>تساعدكم على تحقيق أهدافكم بشكل فعال</p> 
+   <p class="fs-4 text-center">{{ "حين نقدم خدمات تقنية و تسويقية عالية الجودة تساعدكم على تحقيق أهدافكم بشكل فعال" | translate }}</p> 
 </div>
   <div class="col-12 d-flex justify-content-center">
     <img src="assets/images/section3.png" style="margin-top: -24%;" class="w-100" alt="">
@@ -94,7 +162,7 @@
 <div class="seconddiv">
   <br><br><br><br><br>
   <div class="d-flex justify-content-center">
-      <h1 class="primary-color headsection2">طريق بروكسي للنجاح </h1>
+      <h1 class="primary-color headsection2">{{ "طريق بروكسي للنجاح " | translate}}</h1>
     </div>
     <div class="container text-center mt-5">
       <div class="road-map" style="position: relative;">
@@ -141,7 +209,7 @@ visibility: hidden;">
 <div class="seconddiv">
   <div class="seconddiv vh-100">
     <div class="d-flex justify-content-center">
-        <h1 class="primary-color headsection2" style="margin-top: 10%;">عن بروكسي</h1>
+        <h1 class="primary-color headsection2" style="margin-top: 10%;">{{ "عن بروكسي" | translate}}</h1>
       </div>
       <div class="container">
       <div class="row mt-5">
@@ -183,7 +251,7 @@ visibility: hidden;">
       <div class="row">
         <div class="col-9">
           <p id="ksa">
-            المملكه العربيه السعوديه , جده , شارع الأمير  سلطان , برج سكاي الدور  الأول
+            {{ "المملكه العربيه السعوديه , جده , شارع الأمير  سلطان , برج سكاي الدور  الأول" | translate }}
           </p>
         </div>
         <div class="col-3 px-lg-4">
@@ -194,8 +262,7 @@ visibility: hidden;">
       <div class="row">
         <div class="col-9">
           <p id="uae">
-            الإمارات العربيه المتحده , مركز 
-           التجارة العالمي
+            {{ "الإمارات العربية المتحدة , مركز التجارة العالمي" | translate }}
                       </p>
         </div>
         <div class="col-3 px-lg-4">
@@ -205,9 +272,9 @@ visibility: hidden;">
       <br>
       <div class="row">
         <div class="col-9">
-          <p id="egy" class="">
-            مصر , المعادي , كورنيش المعادي , برج دالا 
-            الطابق الرابع والثلاثين          </p>
+            <p id="egy">
+               {{ "مصر ,المعادي ,كورنيش المعادي , برج دالا الطابق الرابع و الثلاثين" | translate}}
+            </p>
         </div>
         <div class="col-3 px-lg-4">
           <img src="assets/images/EGY.png" (click)="SelectCountry('egy')" class="w-100" alt="">

@@ -1,11 +1,14 @@
 import { Component, ViewChild,OnInit, ElementRef } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { Injectable } from '@angular/core';
+
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
+
 export class NavbarComponent implements OnInit {
   lang:boolean = false;
   public languages: any[] = [{
@@ -23,10 +26,9 @@ export class NavbarComponent implements OnInit {
   constructor(private translate:TranslateService) { }
 
   ngOnInit(): void {
-
   }
 
-  changeLanguage() {
+  public changeLanguage() {
     this.lang = !this.lang;
     switch(this.lang) {
       case true:

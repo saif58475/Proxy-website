@@ -68,5 +68,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     })
   ],
   providers: [TranslateService],
+  exports: [TranslateModule]
 })
 export class WebsiteModule { }
