@@ -41,13 +41,22 @@ li a{
 .form-switch .form-check-input{
     background-image: url('./../../assets/images/ksaflag.png') !important;
 }
-
+.navdrop{
+    background-color: #BD9A55;
+    width: 250px;
+    margin-left: -75%;
+}
 @media (max-width: 600px) {
     .navbar-collapse{
         background-color: #494949;
         border-radius: 10%;
         padding: 5%;
      } 
+     .navdrop{
+        background-color: #BD9A55;
+         width: 280px;
+         margin-left: 0%;
+     }
   }
 
 
