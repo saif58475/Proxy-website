@@ -23,8 +23,8 @@ import { ViideoProductionPackageComponent } from './packages/viideo-production-p
 import { CodingPackageComponent } from './packages/coding-package/coding-package.component';
 import { DesignPackageComponent } from './packages/design-package/design-package.component';
 const routes: Routes = [
-  { path: '', component: WebsiteComponent },
-  { path: 'landingpage', component: LandingpageComponent},
+  // { path: '', component: WebsiteComponent },
+  { path: '', component: LandingpageComponent},
   { path: 'contactus', component: ContactusComponent},
   { path: 'aboutus', component: AboutusComponent},
   { path: 'services', component: ServicesComponent},

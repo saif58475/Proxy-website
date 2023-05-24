@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { AppComponent } from './../../app.component'
 @Component({
   selector: 'app-professionallaunchpackages',
   templateUrl: './professionallaunchpackages.component.html',
@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfessionallaunchpackagesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _AppComponent:AppComponent) { }
 
   ngOnInit(): void {
+    this._AppComponent.style();
   }
 
 }

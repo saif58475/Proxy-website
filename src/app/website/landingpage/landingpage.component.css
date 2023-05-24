@@ -1,4 +1,174 @@
-/* <label class="switch">
-	<input id="switch" class="switch__input" type="checkbox" role="switch" data-pristine="true" />
-	<span class="switch__sr">Power</span>
-</label> */
+.seconddiv {
+	background-image: url('./../../../assets/images/seconddiv.png');
+	background-repeat: no-repeat;
+	background-color: #1E1E1E;
+  }
+  .sectionone{
+	background-image: url('./../../../assets/images/Rectangle 1.png');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center center;
+  }
+  button{
+	background-color: transparent;
+	padding: 2%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .btn1{
+	background-color: #BD9A55;
+	border-radius: 0px;
+  }
+  .btn2{
+	color: #BD9A55 !important;
+	border:1px solid
+  }
+  .btn2:hover{
+	background-color: #BD9A55;
+	color: white !important;
+  }
+  .raise {
+	--color: #ffa260;
+	--hover: #e5ff60;
+  }
+  .road-map div{
+	display:inline-block;
+  }
+  .steps img{
+	width: 115px;
+  }
+  .step-arrow img{
+	width: 70px;
+  }
+  .raise:hover,
+  .raise:focus {
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	transform: translateY(-0.25em);
+  }
+  .carousel {
+	padding: 20px;
+	perspective: 500px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .carousel > * {
+	flex: 0 0 auto;
+  }
+  .carousel figure {
+	margin: 0;
+	width: 40%;
+	transform-style: preserve-3d;
+	transition: transform 0.5s;
+  }
+  .carousel figure img {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 0px;
+  }
+  .carousel figure img:not(:first-of-type) {
+	position: absolute;
+	left: 0;
+	top: 0;
+  }
+  .location{
+	margin-top: 25%;
+  }
+  .carousel nav {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 0;
+  }
+  .carousel nav button {
+	flex: 0 0 auto;
+	margin: 0 5px;
+	cursor: pointer;
+	color: #333;
+	background: none;
+	border: 1px solid;
+	letter-spacing: 1px;
+	padding: 5px 10px;
+  }
+  .wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 100%);
+	overflow: hidden;
+	scroll-behavior: smooth;
+  }
+  .wrapper section {
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	margin: 20px 0;
+  }
+  .wrapper section .item {
+	position: relative;
+	padding: 0 2px;
+	transition: 250ms all;
+  }
+  .wrapper section .item:hover {
+	margin: 0 40px;
+	transform: scale(1.2);
+  }
+  .wrapper section .item .heading {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: #fff;
+  }
+  .wrapper section .item .duration {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	color: #fff;
+  }
+  .wrapper section .arrow__btn {
+	position: absolute;
+	color: #fff;
+	text-decoration: none;
+	font-size: 6em;
+	background: black;
+	width: 80px;
+	padding: 20px;
+	text-align: center;
+	z-index: 1;
+  }
+  .wrapper section .left-arrow {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+  }
+  .wrapper section .right-arrow {
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+  }
+  
+  .imageslider{
+	margin-left: 48%;
+  }
+  .textofmap{
+	color: #BD9A55 !important;
+  }
+  
+  @media (max-width: 600px) {
+	.entryinmobile{
+	  margin-top: 20%;
+	}
+	.imageslider{
+	  margin-left: 40%;
+	}
+  }
+  
+  
+  
+  

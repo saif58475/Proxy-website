@@ -1,4 +1,4 @@
-import { Component, ViewChild,OnInit, ElementRef } from '@angular/core';
+import { Component, ViewChild,OnInit, ElementRef, Renderer2 } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Injectable } from '@angular/core';
 
@@ -10,6 +10,8 @@ import { Injectable } from '@angular/core';
 })
 
 export class NavbarComponent implements OnInit {
+  @ViewChild('container') container!: ElementRef;
+
   lang:boolean = false;
   public languages: any[] = [{
     language: 'English',
@@ -23,7 +25,7 @@ export class NavbarComponent implements OnInit {
     icon: 'sa'
   },
  ]
-  constructor(private translate:TranslateService) { }
+  constructor(private translate:TranslateService, private renderer: Renderer2) { }
 
   ngOnInit(): void {
   }
@@ -37,6 +39,14 @@ export class NavbarComponent implements OnInit {
       document.querySelector('nav')!.style.direction = 'ltr';
       this.setLanguage('en');
       this.translate.use('en');
+      let allTags = document.getElementsByTagName("*");
+      for (let i = 0; i < allTags.length; i++) {
+        let tag = allTags[i];
+        let classList = tag.classList;
+        if (classList.contains("text-end")) {
+          classList.replace("text-end", "text-start");
+        }
+      }
       break;
       case false:
        localStorage.setItem('language', 'ar');
@@ -44,6 +54,14 @@ export class NavbarComponent implements OnInit {
        document.querySelector('nav')!.style.direction = 'rtl';
        this.setLanguage('ar');
        this.translate.use('ar');
+       let allTagsar = document.getElementsByTagName("*");
+      for (let i = 0; i < allTagsar.length; i++) {
+        let tag = allTagsar[i];
+        let classList = tag.classList;
+        if (classList.contains("text-start")) {
+          classList.replace("text-start", "text-end");
+        }
+      }
        break;
       default:
         alert('nothing');
