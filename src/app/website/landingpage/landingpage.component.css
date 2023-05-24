@@ -153,7 +153,30 @@
   .textofmap{
 	color: #BD9A55 !important;
   }
-  
+  .detailsbtn{
+	width: 80%;
+	height: 55%;
+	border: 3px solid #BD9A55;
+	position: relative;
+  }
+  .detailsbtn a{
+	text-decoration: none;
+	color: #BD9A55 !important;
+	font-size: 2rem;
+  }
+  .detailsbtn::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 25%;
+  height: 3px;
+  background-color: #BD9A55; /* adjust the color as needed */
+  transform: translateY(-50%) rotate(0deg);
+  transform-origin: 100% 100%;
+  margin-left: -18%;
+  }
+
   @media (max-width: 600px) {
 	.entryinmobile{
 	  margin-top: 20%;
@@ -161,6 +184,17 @@
 	.imageslider{
 	  margin-left: 40%;
 	}
+	.detailsbtn{
+		width: 60%;
+		height: 90%;
+		border: 3px solid #BD9A55;
+		position: relative;
+	  }
+	  .detailsbtn a{
+		text-decoration: none;
+		color: #BD9A55 !important;
+		font-size: 1.2rem;
+	  }
   }
   
   

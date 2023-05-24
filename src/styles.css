@@ -30,4 +30,7 @@ text-align: justify;
 .navbar-toggler-icon:focus{
     border: 2px solid red !important;
 }
-
+button:focus{
+    outline: none !important;
+    border: 0px solid transparent;
+}

@@ -5,10 +5,11 @@
 }
 .whatsapplogo{
     position: fixed;
-    right: 5%;
-    top: 80%;
+    right: 2%;
+    bottom: 5%;
     z-index: 999;
 }
+
 .socialmediaicons{
     text-align: left;
 }
@@ -16,8 +17,8 @@
 @media screen and (max-width: 600px) {
     .whatsapplogo{
         position: fixed;
-        right: 5%;
-        top: 80%;
+        right: 2%;
+        bottom: 5%;
         z-index: 999;
     }
     .showfooter{
