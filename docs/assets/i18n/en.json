@@ -23,7 +23,9 @@
     "باقات التصميم":"Design Packages",
     "باقات انتاج الفيديو":"Video Design Packages",
     "باقات البرمجة":"Coding Packages",
-
+    "تمتع بالجودة و الأداء العالي":"Enjoy high quality and performance",
+    "تواصل معنا عبر الواتساب":"contact us on whatsapp",
+    "استكشف بروكسي":"Explore Proxy",
 
    "التسويق":"marketing",
    "اكتشفنا":"find us",
@@ -60,5 +62,19 @@
     "عن بروكسي":"About Proxy",
     "المملكه العربيه السعوديه , جده , شارع الأمير  سلطان , برج سكاي الدور  الأول":"Ksa , Jeddah, Sultan street",
     "الإمارات العربية المتحدة , مركز التجارة العالمي":"UAE , World Trade Center",
-    "مصر ,المعادي ,كورنيش المعادي , برج دالا الطابق الرابع و الثلاثين":"Egypt, Maadi , Nile Kornesh , Dala Tower floor 34"
+    "مصر ,المعادي ,كورنيش المعادي , برج دالا الطابق الرابع و الثلاثين":"Egypt, Maadi , Nile Kornesh , Dala Tower floor 34",
+
+
+
+    " عبر":" via",
+    "البريد الالكرتوني":"Email",
+    "رقم الهاتف":"Phone Number",
+    "عنواينا":"Our Address",
+    "للاستفسارات و الشكاوي":"For inquiries and complaints",
+    "تواصل معنا للشكاوي و الحجوزات":"contact us for inquiries and complaints",
+    "اذا كنت تواجه مشكلة في الحجز الخاص بك او لديك استفسار معين تواصل معنا و سوف نرد عليك في اسرع وقت ممكن":"If you are having a problem with your reservation or have a specific inquiry, contact us and we will respond to you as soon as possible",
+    "الاسم كامل":"Full Name",
+    "الخدمة": "Service",
+    "اكتب المشكلة التي تواجهك":"Write the problem facing you",
+    "أرسل الأن" :"Submit"
 }
