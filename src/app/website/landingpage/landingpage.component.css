@@ -176,7 +176,16 @@
   transform-origin: 100% 100%;
   margin-left: -18%;
   }
-
+  .entryinmobile{
+	/* margin: 0% -3%; */
+	padding-inline: 0%;
+  }
+  @media screen and (min-width: 600px) and (max-width: 1280px) {
+	.entryinmobile{
+	/* margin: 0% -3%; */
+	padding-inline: 3.5%;
+  }
+  }
   @media (max-width: 600px) {
 	.entryinmobile{
 	  margin-top: 20%;

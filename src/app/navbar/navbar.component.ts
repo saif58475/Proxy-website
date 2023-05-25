@@ -30,9 +30,9 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public changeLanguage() {
-    this.lang = !this.lang;
-    switch(this.lang) {
+  public changeLanguage(lang:boolean) {
+    // this.lang = !this.lang;
+    switch(lang) {
       case true:
       localStorage.setItem('language', 'en');
       document.body.dir = 'rtl';
