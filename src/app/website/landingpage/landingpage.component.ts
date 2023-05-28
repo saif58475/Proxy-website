@@ -22,6 +22,17 @@ constructor(private elRef: ElementRef, private renderer: Renderer2, private tran
         this.SelectCountry(this.countries[i]);
         this.changecolor(this.countries[i]);
         if( i == 2){
+          switch (localStorage.getItem('language')) {
+            case 'en':
+              document.getElementById('map')?.classList.add("flip-image");
+            break;
+            case 'ar':
+              document.getElementById('map')?.classList.remove("flip-image");           
+            break;
+            default:
+              document.getElementById('map')?.classList.remove("flip-image");
+            break;
+          }
           i = 0; 
        }else {
         i++;
@@ -52,7 +63,6 @@ SelectCountry(map:string){
 
 changecolor(id:string){
   document.getElementById(`${id}`)!.classList.add('textofmap');
-
   }
 
 }
