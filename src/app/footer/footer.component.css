@@ -2,6 +2,8 @@
     background-color: #1E1E1E;
     background-image: url('./../../assets/images/footerbackground.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .whatsapplogo{
     position: fixed;
