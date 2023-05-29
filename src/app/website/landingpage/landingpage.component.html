@@ -158,7 +158,7 @@
   </div>
   
   
-  <div class="seconddiv d-none d-md-block">
+  <div class="seconddiv d-none d-md-block" style="direction: ltr !important;">
     <br><br><br><br><br>
     <div class="d-flex justify-content-center">
         <h1 class="primary-color headsection2">{{ "طريق بروكسي للنجاح " | translate}}</h1>
@@ -218,7 +218,7 @@
 
 
   <!-- the div in the mobile screens -->
-<div class="seconddiv d-block d-lg-none">
+<div class="seconddiv d-block d-lg-none" style="direction: ltr !important;">
   <div class="container">
     <div class="row">
       <div class="image col-12 my-2">
@@ -291,8 +291,9 @@
   <div class="seconddiv">
     <div class="seconddiv">
       <div class="container row">
-    <div class="col-lg-6 col-md-12 px-0">
+    <div class="col-lg-6 col-md-12 px-0 image">
       <img [src]="map" class="w-100" id="map" alt="map">
+      <span class="word_of_imagecountryar" id="mapword">{{ Country }}</span>
     </div>
     <div class="col-lg-6 col-md-12">
       <div class="text-end fs-3 location">
@@ -303,7 +304,7 @@
             </p>
           </div>
           <div class="col-3 px-lg-4">
-            <img src="assets/images/KSA.png" (click)="SelectCountry('ksa')" class="w-100" alt="">
+            <img src="assets/images/KSA.png"  class="w-100" alt="">
           </div>
         </div>
         <br>
@@ -314,7 +315,7 @@
                         </p>
           </div>
           <div class="col-3 px-lg-4">
-            <img src="assets/images/UAE.png" (click)="SelectCountry('uae')" class="w-100 " alt="">
+            <img src="assets/images/UAE.png"  class="w-100 " alt="">
           </div>
         </div>
         <br>
@@ -325,7 +326,7 @@
               </p>
           </div>
           <div class="col-3 px-lg-4">
-            <img src="assets/images/EGY.png" (click)="SelectCountry('egy')" class="w-100" alt="">
+            <img src="assets/images/EGY.png"  class="w-100" alt="">
           </div>
         </div>
       
