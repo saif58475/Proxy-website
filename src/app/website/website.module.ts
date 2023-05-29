@@ -27,6 +27,7 @@ import { CodingPackageComponent } from './packages/coding-package/coding-package
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient } from '@angular/common/http';
+import { MobilecodingComponent } from './mobilecoding/mobilecoding.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -54,7 +55,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SalesPackageComponent,
     DesignPackageComponent,
     ViideoProductionPackageComponent,
-    CodingPackageComponent
+    CodingPackageComponent,
+    MobilecodingComponent
   ],
   imports: [
     CommonModule,

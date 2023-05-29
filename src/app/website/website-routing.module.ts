@@ -22,6 +22,7 @@ import { SalesPackageComponent } from './packages/sales-package/sales-package.co
 import { ViideoProductionPackageComponent } from './packages/viideo-production-package/viideo-production-package.component';
 import { CodingPackageComponent } from './packages/coding-package/coding-package.component';
 import { DesignPackageComponent } from './packages/design-package/design-package.component';
+import { MobilecodingComponent } from './mobilecoding/mobilecoding.component';
 const routes: Routes = [
   // { path: '', component: WebsiteComponent },
   { path: '', component: LandingpageComponent},
@@ -44,7 +45,8 @@ const routes: Routes = [
   { path: 'salespackage', component: SalesPackageComponent},
   { path: 'videoproduction', component: ViideoProductionPackageComponent},
   { path: 'designpackages', component: DesignPackageComponent},
-  { path: 'codingpackage', component: CodingPackageComponent}
+  { path: 'codingpackage', component: CodingPackageComponent},
+  { path: 'mobilecoding', component: MobilecodingComponent}
 ];
 
 @NgModule({
