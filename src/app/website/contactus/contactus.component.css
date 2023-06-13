@@ -3,7 +3,9 @@
     background-repeat: no-repeat;
     background-color: #1E1E1E;
 }
-
+.wholeform{
+    box-shadow: 2px 2px 4px rgba(189, 154, 85, 25%); 
+}
 .parent{
     position: relative;
     border: 1px solid #BD9A55;
@@ -18,11 +20,15 @@
     border-bottom: 3px solid #BD9A55;
     padding: 2%;
 }
-.rightform{
- margin-top: 10%;
- margin-left: -20%;
- height: 60%;
+.whiteinput{
+    color: white !important;
+    font-size: 25px;
 }
+.rightform{
+    margin-top: 4%;
+    margin-left: -20%;
+    height: 60%;
+   }
 input{
     background-color: #BD9A55;
     color: black !important;

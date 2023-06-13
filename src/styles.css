@@ -22,10 +22,11 @@ text-align: justify;
 }
 .dropdown-item:focus, .dropdown-item:hover{
     min-width: 100% !important;
-    background-color: #7f5d5d !important;
+    background-color: #000 !important;
     text-align: start !important;
     color: #BD9A55 !important;
 }
+
 .navbar-toggler-icon{
     background-image: url('./assets/images/navbaricon.PNG') !important;
 }
