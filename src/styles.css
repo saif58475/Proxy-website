@@ -20,6 +20,7 @@ text-align: justify;
 .dropdown-toggle::after{
     margin: 0px 2px -4px;
 }
+
 .dropdown-item:focus, .dropdown-item:hover{
     min-width: 100% !important;
     background-color: #000 !important;

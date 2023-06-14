@@ -16,7 +16,9 @@
   .flip-image {
 	transform: scaleX(-1);
   }
-  
+  .card{
+	background-color: #BD9A55;
+  }
   .btn1{
 	background-color: #BD9A55;
 	border-radius: 0px;

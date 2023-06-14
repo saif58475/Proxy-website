@@ -26,6 +26,15 @@ export class AppComponent {
     
   }
 
+  displaydata(id : any){
+    if(localStorage.getItem('page') != id){
+      document.getElementById(`${localStorage.getItem('page')}`)?.classList.remove('primary-color');
+    }
+    localStorage.setItem('page', id);
+    document.getElementById(`${id}`)?.classList.add('primary-color');
+    }
+
+
   style(){
     switch (localStorage.getItem('language')) {
       case "en":
@@ -61,6 +70,9 @@ export class AppComponent {
         break;
     }
   }
+
+
+  
   }
   
 

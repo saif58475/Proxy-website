@@ -14,6 +14,7 @@ export class LandingpageComponent implements OnInit {
   intervalId: any;
   language!:string | null;
   Country?:string;
+  toggleOverflow:any;
 constructor(private elRef: ElementRef, private renderer: Renderer2, private translate:TranslateService,private _AppComponent:AppComponent) { }
 
   ngOnInit(): void {
@@ -92,5 +93,8 @@ SelectCountry(map:string , lang:string){
 changecolor(id:string){
   document.getElementById(`${id}`)!.classList.add('textofmap');
   }
+  
+
+
 
 }

@@ -1,7 +1,8 @@
-import { Component, ViewChild,OnInit, ElementRef, Renderer2 } from '@angular/core';
+import { Component, ViewChild,OnInit, ElementRef, Renderer2, OnDestroy } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Injectable } from '@angular/core';
-
+import { AppComponent } from './../app.component';
+import { VirtualTimeScheduler } from 'rxjs';
 
 @Component({
   selector: 'app-navbar',
@@ -11,8 +12,9 @@ import { Injectable } from '@angular/core';
 
 export class NavbarComponent implements OnInit {
   @ViewChild('container') container!: ElementRef;
-
+  
   lang:boolean = false;
+  page:string = '0';
   public languages: any[] = [{
     language: 'English',
     code: 'en',
@@ -25,9 +27,11 @@ export class NavbarComponent implements OnInit {
     icon: 'sa'
   },
  ]
-  constructor(private translate:TranslateService, private renderer: Renderer2) { }
+ allElements:any [] = [];
+  constructor(private translate:TranslateService, private renderer: Renderer2, private _AppComponent:AppComponent) { }
 
   ngOnInit(): void {
+   this.checkthepage();
   }
 
   public changeLanguage(lang:boolean) {
@@ -70,5 +74,44 @@ export class NavbarComponent implements OnInit {
   setLanguage(lang: string) {
     this.translate.use(lang);
   }
+  displaydata(id:any){
+    this._AppComponent.displaydata(id)
+  }
+  checkthepage(){
+    switch(location.href.substring(location.href.lastIndexOf('/') + 1)){
+    case 'aboutus' :
+     this._AppComponent.displaydata(1);
+     break;
+     case 'services': 
+     case 'marketingplace': 
+     case 'Graphicdesign': 
+     case 'videomade': 
+     case 'websitecoding': 
+     case 'mobilecoding': 
+     case 'seo': 
+     case 'comunicationaccount': 
+     case 'campaignmanagment': 
+     case 'professionallaunchpackages': 
+     case 'organizingandmanagingparties': 
+     case 'trainingcoursesandworkshops': 
+     case 'discoveringandmanagingtalent': 
+       this._AppComponent.displaydata(2);
+     break;
+     case 'packages':
+     case 'salespackage':
+     case 'designpackages':
+     case 'videoproduction':
+     case 'codingpackage':
+      this._AppComponent.displaydata(3);
+      break;
+     case 'contactus' :
+      this._AppComponent.displaydata(4);
+      break;
+     default:
+      this._AppComponent.displaydata(0);
+      break;
+    }
+    // alert( location.href.substring(location.href.lastIndexOf('/') + 1));
+  } 
   
 }

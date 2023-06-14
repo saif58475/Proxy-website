@@ -9,14 +9,14 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav px-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" id="main" routerLink="/">{{ "الرئيسية" | translate }}</a>
+          <a class="nav-link" aria-current="page" id="0" (click)="displaydata(0)" routerLink="/">{{ "الرئيسية" | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link w-100" id="aboutus" routerLink="aboutus">{{ "من نحن" | translate}}</a>
+          <a class="nav-link w-100" id="1" (click)="displaydata(1)" routerLink="aboutus">{{ "من نحن" | translate}}</a>
         </li>
        
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="2" (click)="displaydata(2)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ "خدماتنا" | translate}}
           </a>
           <ul class="dropdown-menu navdrop">
@@ -36,7 +36,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" role="button" id="3" (click)="displaydata(3)" data-bs-toggle="dropdown" aria-expanded="false">
             {{ "الباقات" | translate}}
           </a>
           <ul class="dropdown-menu navdrop">
@@ -48,7 +48,7 @@
           </ul>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" routerLink="contactus">{{ "تواصل معنا" | translate }}</a>
+          <a class="nav-link" id="4" (click)="displaydata(4)" routerLink="contactus">{{ "تواصل معنا" | translate }}</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
