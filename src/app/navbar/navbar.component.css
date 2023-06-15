@@ -38,9 +38,9 @@ li a{
     background-color: white;
     border: 0px;
 }
-.form-switch .form-check-input{
-    background-image: url('./../../assets/images/ksaflag.png') !important;
-}
+/* .form-switch .form-check-input{
+    background-image: url('assets/images/ksaflag.png') !important;
+} */
 .navdrop{
     background-color: #BD9A55;
     width: 280px;
